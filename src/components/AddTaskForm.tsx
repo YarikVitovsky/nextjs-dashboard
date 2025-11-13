@@ -47,7 +47,7 @@ export default function AddTaskForm() {
                         value={title}
                         onChange={(e) => setTitle(e.target.value)}
                         placeholder="Enter task title..."
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
                         required
                     />
                 </div>
@@ -60,7 +60,7 @@ export default function AddTaskForm() {
                         id="priority"
                         value={priority}
                         onChange={(e) => setPriority(e.target.value as 'low' | 'medium' | 'high')}
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
                     >
                         <option value="low">Low</option>
                         <option value="medium">Medium</option>
